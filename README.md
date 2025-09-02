@@ -1,4 +1,4 @@
-# 🤖 Self-Balancing Robot with Arduino Nano, MPU6050 & PID Control
+# Self-Balancing Robot with Arduino Nano, MPU6050 & PID Control
 
 This project implements a **self-balancing two-wheeled robot** using the **Arduino Nano**, **MPU6050 IMU (Gyroscope + Accelerometer)**, and a **PID control algorithm**.  
 The robot maintains balance in real time by continuously adjusting motor speeds based on orientation feedback.  
@@ -8,7 +8,7 @@ This project demonstrates how **low-cost hardware + well-tuned control theory** 
 
 ---
 
-## 🚀 Features
+## Features
 - Real-time balance control using **Arduino Nano + PID algorithm**.
 - Dual PID loops: **Pitch control** for balance & **Yaw control** for rotation stability.
 - **MPU6050 calibration utility** included for accurate motion sensing.
@@ -18,7 +18,7 @@ This project demonstrates how **low-cost hardware + well-tuned control theory** 
 
 ---
 
-## 📦 Installation
+## Installation
 
 Upload the provided Arduino sketches to your **Arduino Nano**:
 
@@ -34,7 +34,7 @@ cd self-balancing-robot
 
 ---
 
-## ▶️ Usage
+## Usage
 
 1. **Calibrate MPU6050**  
    - Upload and run `calibration_mpu6050.ino`.  
@@ -48,12 +48,12 @@ cd self-balancing-robot
 
 ---
 
-## 📊 Output Example (Video)  
+## Output Example (Video)  
 [![Watch the output](https://img.youtube.com/vi/FJ3LSyXKzSI/hqdefault.jpg)](https://youtu.be/FJ3LSyXKzSI?feature=shared)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 self-balancing-robot/
 ├── calibration_mpu6050/         # MPU6050 calibration sketch
@@ -66,7 +66,7 @@ self-balancing-robot/
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 - **Arduino Nano** (main controller)
 - **MPU6050** (I2C IMU sensor)
 - **PID Control Algorithm**
@@ -76,7 +76,7 @@ self-balancing-robot/
 - **Fritzing** (for circuit diagrams)
 - **Arduino C++**
 
-### 📦 Arduino Library Dependencies
+### Arduino Library Dependencies
 Make sure these libraries are installed via Arduino IDE Library Manager or manually:
 
 - `I2Cdev` (I2C communication helpers)  
@@ -85,7 +85,7 @@ Make sure these libraries are installed via Arduino IDE Library Manager or manua
 
 ---
 
-## 📚 Learnings & Applications
+## Learnings & Applications
 - Practical understanding of **PID control theory** and real-world tuning.  
 - Insights into motor deadband compensation, sensor calibration, and stability.  
 - Applicable foundations for more advanced robotics projects such as:
@@ -95,5 +95,5 @@ Make sure these libraries are installed via Arduino IDE Library Manager or manua
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
